@@ -170,17 +170,32 @@ After that, git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
-[Friday Clock!](https://youtu.be/D8aYtKsx0TQ)
+[Friday Clock Version1.0!](https://youtu.be/D8aYtKsx0TQ)
 
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+Version 1 of the Raspberry Friday has 1 feature to reveal how many days and seconds away from next Friday. The next version I would like to add some features that are realted to the use of buttons in order to make the clock more interactive.
+Since it is a Friday clock, some interesting ideas are:
+1. Add a feature to generate some fun ideas for Friday nights!
+2. Use some more features related to the randomness.
+3. Use some fun fonts and colors.
 
 ## Prep for Part 2
 
 1. Pick up remaining parts for kit.
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+Comments Received:
+
+From John: Very cool idea to have a countdown. Good text format. However, maybe adding button effects would make it more interesting.
+
+From Andrew: Using a "countdown" is a good idea, especially when people work hard and are tired, they want to enjoy the weekend immediately, this feature help people to relax and reduce their stress. For the future design, adding some background images and a feature like "event reminder" would be great!
+
+From Quinn: Hi James I really like the Friday Clock! To make it more interesting, I think you can use the buttons to create something like a mood screen. For example, show a smiley face picture/gif when it's close to Friday and a tired/sad picture for Monday.
+
 
 # Lab 2 Part 2
 
@@ -191,5 +206,13 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+[Friday Clock Version2.0!](https://youtu.be/SHXBE5gG2Ao)
+
+Description:
+3 amazing features in one clock! 
+A Friday count down clock - get to know how many days or seconds you are away from next Friday. 
+A random task generator - No worries when you feel bored! Use the Raspberry Friday clock to get some fun ideas! 
+A roll dice - let it help you when you can't make a decision.
 
 
