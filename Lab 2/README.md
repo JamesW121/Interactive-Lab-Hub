@@ -169,6 +169,7 @@ After that, git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
+### Link of Video
 
 [Friday Clock Version1.0!](https://youtu.be/D8aYtKsx0TQ)
 
@@ -207,16 +208,15 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+## Link of video:
+
 [Friday Clock Version2.0!](https://youtu.be/SHXBE5gG2Ao)
 
-Description:
+## Description:
 
 3 amazing features in one clock!
-
-A Friday count down clock - get to know how many days or seconds you are away from next Friday. 
-
-A random task generator - No worries when you feel bored! Use the Raspberry Friday clock to get some fun ideas! 
-
-A roll dice - let it help you when you can't make a decision.
+1. A Friday count down clock - get to know how many days or seconds you are away from next Friday. 
+2. A random task generator - No worries when you feel bored! Use the Raspberry Friday clock to get some fun ideas! 
+3. A roll dice - let it help you when you can't make a decision.
 
 
