@@ -74,7 +74,11 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image)
 
-image = Image.open("red.jpg")
+image = Image.open("cook.jpg")
+image2 = Image.open("hike.jpg")
+image3 = Image.open("movie.jpg")
+image4 = Image.open("shop.jpg")
+
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
@@ -90,12 +94,26 @@ else:
     scaled_width = width
     scaled_height = image.height * width // image.width
 image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
+image2 = image2.resize((150, 200), Image.BICUBIC)
+image3 = image3.resize((150, 200), Image.BICUBIC)
+image4 = image4.resize((250, 250), Image.BICUBIC)
+image = image.rotate(90)
+image2 = image2.rotate(90)
+image3 = image3.rotate(90)
+image4 = image4.rotate(90)
+print(scaled_width)
+print(scaled_height)
 
 # Crop and center the image
 x = scaled_width // 2 - width // 2
 y = scaled_height // 2 - height // 2
 image = image.crop((x, y, x + width, y + height))
+image2 = image2.crop((x, y, x + width, y + height))
+image3 = image3.crop((x, y, x + width, y + height))
+image4 = image4.crop((x, y-10, x + width, y + height))
+
+
 
 # Display image.
-disp.image(image)
+disp.image(image4)
 
